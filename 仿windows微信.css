@@ -1,0 +1,162 @@
+.message_system .content {
+    color: #fff;
+    background: #d0d0d0;
+}
+
+.box_hd .title_wrap {
+    margin: 0;
+    padding-left: 19px;
+    box-shadow: 0 3px 30px #ddd;
+    text-align: left;
+}
+
+.box_hd .title {
+    font-size: 18px;
+}
+
+.header {
+    display: none;
+}
+
+.header .avatar .img {
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.header .info .nickname .display_name {
+    color: #333;
+}
+
+.search_bar {
+    margin: 8px auto 4px;
+}
+
+.search_bar .frm_search {
+    background-color: #ccc;
+}
+
+.tab {
+    display: none;
+}
+
+.tab .tab_item:after {
+    border-right: none;
+}
+
+.tab:after {
+    border-bottom: none;
+}
+
+.panel.give_me .nav_view {
+    top: 50px;
+}
+
+.nav_view {
+    top: 50px;
+}
+
+.chat_item {
+    border-bottom: none;
+    cursor: default;
+}
+
+.chat_item.top {
+    background-color: #ccc;
+}
+
+.chat_item.active {
+    background: #bbb;
+}
+
+.chat_item.active .ext,.chat_item.active .info .msg {
+    color: #666;
+}
+
+.chat_item .info .nickname {
+    color: #333;
+}
+
+.chat_item .info .msg {
+    color: #888;
+}
+
+.chat .box_ft {
+    margin-right: 0;
+    padding-right: 19px;
+    background: rgb(250,250,250);
+}
+
+.qq_face a {
+    cursor: default;
+}
+
+.download_entry {
+    display: none;
+}
+
+.qq_face a:hover {
+    background-color: #eee;
+}
+
+.panel {
+    background: #ddd;
+}
+
+.search_bar .frm_search {
+    color: #666;
+}
+
+.chat_item:hover {
+    background: #ccc;
+}
+
+.chat_item.active:hover {
+    background: #bbb;
+}
+
+.bubble.bubble_default:hover {
+    background: rgb(248,248,248);
+}
+
+.bubble.bubble_primary:hover {
+    background-color: #a2d271;
+}
+
+.title_wrap .web_wechat_down_icon {
+    display: none;
+}
+
+.recommendation {
+    background: #ddd;
+    box-shadow: 0 0 10px #999;
+    -moz-box-shadow: 0 0 10px #999;
+    -webkit-box-shadow: 0 0 10px #999;
+}
+
+.recommendation .contact_item {
+	background: #ddd;
+	border-bottom: none;
+	cursor: default;
+}
+
+.recommendation .contact_item:hover {
+	background: #ccc;
+}
+
+.recommendation .contact_item.on {
+    background: #bbb;
+}
+
+.recommendation .info .nickname {
+	color: #333;
+}
+
+.recommendation .contact_title {
+    background-color: #ccc;
+    margin-top: 0;
+}
+
+.toolbar a {
+	cursor: default;
+}
