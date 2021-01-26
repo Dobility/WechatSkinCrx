@@ -1,0 +1,52 @@
+document.title = '微信';
+const style = document.createElement('style');
+style.innerHTML = `
+body{background-image:url(https://cdn.pixabay.com/photo/2020/12/25/04/51/polar-lights-5858651_1280.jpg)}
+.message_system .content{color:#888}
+.box_hd .title_wrap{margin:0;padding-left:19px;box-shadow:0 3px 30px #ddd;text-align:left}
+.box_hd .title{font-size:18px}
+.header{position:absolute;top:0;bottom:0;left:-66px;background:#121716;width:30px;border-radius:6px 0 0 6px}
+.header .avatar .img{margin-left:-5px}
+.header .info .nickname .display_name{display:none}
+.header .info .nickname .opt{position:absolute;bottom:10px;left:20px}
+.search_bar{margin:8px auto 4px}
+.search_bar .frm_search{background-color:#ccc}
+.tab{position:absolute;left:-50px;width:30px;top:60px}
+.tab .tab_item{float:none;margin-top:20px}
+.tab .tab_item:after{border-right:none}
+.tab:after{border-bottom:none}
+.panel.give_me .nav_view{top:50px}
+.nav_view{top:50px}
+.chat.box{border-radius:0 6px 6px 0}
+.chat_item{border-bottom:none;cursor:default}
+.chat_item.top{background-color:#ccc}
+.chat_item.active{background:#bbb}
+.chat_item.active .ext,.chat_item.active .info .msg{color:#666}
+.chat_item .info .nickname{color:#333}
+.chat_item .info .msg{color:#888}
+.chat .box_ft{margin-right:0;padding-right:19px;background:#fafafa}
+.qq_face a{cursor:default}
+.download_entry{display:none}
+.qq_face a:hover{background-color:#eee}
+.panel{background:#ddd}
+.search_bar .frm_search{color:#666}
+.chat_item:hover{background:#ccc}
+.chat_item.active:hover{background:#bbb}
+.bubble.bubble_primary{background-color:#8de665}
+.title_wrap .web_wechat_down_icon{display:none}
+.recommendation{background:#ddd;box-shadow:0 0 10px #999;-moz-box-shadow:0 0 10px #999;-webkit-box-shadow:0 0 10px #999}
+.recommendation .contact_item{background:#ddd;border-bottom:none;cursor:default}
+.recommendation .contact_item:hover{background:#ccc}
+.recommendation .contact_item.on{background:#bbb}
+.recommendation .info .nickname{color:#333}
+.recommendation .contact_title{background-color:#ccc;margin-top:0}
+.toolbar a{cursor:default}
+.chat .box_ft .action{display:none}
+.copyright{display:none}
+.main_inner{overflow:unset}
+.panel{margin-left:66px}
+#mmpop_system_menu{bottom:0;top:unset!important;left:0!important}
+.main{padding-top:80px}
+@media (max-height:800px),(max-width:1000px){.main{padding-top:0}.chat.box,.header{border-radius:unset}}
+`
+document.head.appendChild(style)

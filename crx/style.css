@@ -1,6 +1,9 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2020/12/25/04/51/polar-lights-5858651_1280.jpg);
+}
+
 .message_system .content {
-    color: #fff;
-    background: #d0d0d0;
+    color: #888;
 }
 
 .box_hd .title_wrap {
@@ -15,17 +18,27 @@
 }
 
 .header {
-    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -66px;
+    background: #121716;
+    width: 30px;
+    border-radius: 6px 0 0 6px;
 }
 
 .header .avatar .img {
-    border-radius: 100px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
+    margin-left: -5px;
 }
 
 .header .info .nickname .display_name {
-    color: #333;
+    display: none;
+}
+
+.header .info .nickname .opt {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
 }
 
 .search_bar {
@@ -37,7 +50,15 @@
 }
 
 .tab {
-    display: none;
+    position: absolute;
+    left: -50px;
+    width: 30px;
+    top: 60px;
+}
+
+.tab .tab_item {
+    float: none;
+    margin-top: 20px;
 }
 
 .tab .tab_item:after {
@@ -56,6 +77,10 @@
     top: 50px;
 }
 
+.chat.box {
+    border-radius: 0 6px 6px 0;
+}
+
 .chat_item {
     border-bottom: none;
     cursor: default;
@@ -69,7 +94,7 @@
     background: #bbb;
 }
 
-.chat_item.active .ext,.chat_item.active .info .msg {
+.chat_item.active .ext, .chat_item.active .info .msg {
     color: #666;
 }
 
@@ -84,7 +109,7 @@
 .chat .box_ft {
     margin-right: 0;
     padding-right: 19px;
-    background: rgb(250,250,250);
+    background: rgb(250, 250, 250);
 }
 
 .qq_face a {
@@ -115,12 +140,8 @@
     background: #bbb;
 }
 
-.bubble.bubble_default:hover {
-    background: rgb(248,248,248);
-}
-
-.bubble.bubble_primary:hover {
-    background-color: #a2d271;
+.bubble.bubble_primary {
+    background-color: #8de665;
 }
 
 .title_wrap .web_wechat_down_icon {
@@ -135,13 +156,13 @@
 }
 
 .recommendation .contact_item {
-	background: #ddd;
-	border-bottom: none;
-	cursor: default;
+    background: #ddd;
+    border-bottom: none;
+    cursor: default;
 }
 
 .recommendation .contact_item:hover {
-	background: #ccc;
+    background: #ccc;
 }
 
 .recommendation .contact_item.on {
@@ -149,7 +170,7 @@
 }
 
 .recommendation .info .nickname {
-	color: #333;
+    color: #333;
 }
 
 .recommendation .contact_title {
@@ -158,5 +179,40 @@
 }
 
 .toolbar a {
-	cursor: default;
+    cursor: default;
+}
+
+.chat .box_ft .action {
+    display: none;
+}
+
+.copyright {
+    display: none;
+}
+
+.main_inner {
+    overflow: unset;
+}
+
+.panel {
+    margin-left: 66px;
+}
+
+#mmpop_system_menu {
+    bottom: 0;
+    top: unset !important;
+    left: 0 !important;
+}
+
+.main {
+    padding-top: 80px;
+}
+
+@media (max-height: 800px), (max-width: 1000px) {
+    .main {
+        padding-top: 0;
+    }
+    .header, .chat.box {
+        border-radius: unset;
+    }
 }
