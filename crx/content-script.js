@@ -1,9 +1,9 @@
 document.title = '微信';
 const style = document.createElement('style');
 style.innerHTML = `
-body{background-image:url(https://cdn.pixabay.com/photo/2020/12/25/04/51/polar-lights-5858651_1280.jpg)}
+body{background-image:url(https://cdn.pixabay.com/photo/2020/12/25/04/51/polar-lights-5858651_1280.jpg);overflow:hidden}
 .message_system .content{color:#888}
-.box_hd .title_wrap{margin:0;padding-left:19px;box-shadow:0 3px 30px #ddd;text-align:left}
+.box_hd .title_wrap{margin:0;padding-left:19px;text-align:left}
 .box_hd .title{font-size:18px}
 .header{position:absolute;top:0;bottom:0;left:-66px;background:#121716;width:30px;border-radius:6px 0 0 6px}
 .header .avatar .img{margin-left:-5px}

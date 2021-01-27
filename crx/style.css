@@ -1,5 +1,6 @@
 body {
     background-image: url(https://cdn.pixabay.com/photo/2020/12/25/04/51/polar-lights-5858651_1280.jpg);
+    overflow: hidden;
 }
 
 .message_system .content {
@@ -9,7 +10,6 @@ body {
 .box_hd .title_wrap {
     margin: 0;
     padding-left: 19px;
-    box-shadow: 0 3px 30px #ddd;
     text-align: left;
 }
 
